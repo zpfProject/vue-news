@@ -1,0 +1,42 @@
+#routerlink{
+	text-decoration: none;
+	color: #000;
+	height: 15.5rem
+}
+/* 顶部 开始 */
+#wrap>header{
+	width: 100%;
+	height:2.2rem;
+	background: #3678EE;
+}
+#wrap>header>h3{
+	color: #fff;
+	font-size: 1.05rem;
+	line-height: 2.2rem;
+	text-align: center;
+}
+/* 顶部结束 */
+
+/* 导航开始 */
+#topNav {
+	width: 100%;
+	overflow: hidden;
+	font: 0.8rem/1.6rem hiragino sans gb, microsoft yahei, simsun;
+	border-bottom:1px solid #f8f8f8;
+}
+#topNav .swiper-slide {
+	padding: 0 0.15rem;
+	letter-spacing:0.1rem;
+	width:2.6rem;
+	text-align:center;
+}
+#topNav .swiper-slide span{
+
+	transition:all .3s ease;
+	display:block;
+}
+#topNav .active span{
+	transform:scale(1.1);
+	color:#3678EE;
+}
+/* 导航结束 */
